@@ -1,0 +1,21 @@
+community:
+  repo: git@github.com:neo4j/community.git
+  path: product
+advanced:
+  repo: git@github.com:neo4j/advanced.git
+  path: product
+enterprise:
+  repo: git@github.com:neo4j/enterprise.git
+  path: product
+manual:
+  repo: git@github.com:neo4j/manual.git
+  path: product
+packaging:
+  repo: git@github.com:neo4j/packaging.git
+  path: product
+python-embedded:
+  repo: git@github.com:neo4j/python-embedded.git
+  path: product
+gremlin-plugin:
+  repo: git@github.com:neo4j/gremlin-plugin.git
+  path: product
