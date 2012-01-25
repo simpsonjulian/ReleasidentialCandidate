@@ -14,5 +14,5 @@ do
     echo "skipping ${project} as it isn't a directory"
   fi
 done
-
+export MAVEN_OPTS=-Xmx256m
 mvn install -Dlicense.failIfMissing=false 
