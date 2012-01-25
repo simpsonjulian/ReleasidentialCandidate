@@ -4,7 +4,9 @@ CLEAN.include('product/*.zip')
 task :clobber do 
   sh " cd product && mvn clean "
 end
+
 task :default => :clean do 
+  sh "bundle install"
   sh "giternal update"
   sh "cd product && ./build_rc.sh"
 end
