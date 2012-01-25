@@ -1,5 +1,6 @@
 #!/bin/bash
 workspace=$PWD
+export JAVA_HOME=/usr/lib/jvm/java-6-sun
 for project in *
 do
   if [ -d $project ]; then
@@ -14,4 +15,4 @@ do
   fi
 done
 
-mvn install
+mvn install -Dlicense.failIfMissing=false 

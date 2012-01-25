@@ -19,3 +19,7 @@ python-embedded:
 gremlin-plugin:
   repo: git@github.com:neo4j/gremlin-plugin.git
   path: product
+parents:
+  repo: git@github.com:neo4j/parents.git
+  path: product
+  
